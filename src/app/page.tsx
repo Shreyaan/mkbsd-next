@@ -47,8 +47,8 @@ export default async function ImageGallery() {
     <div className="container mx-auto px-4 py-8">
       <AsciiArt />
       <p className="text-lg mb-8">
-        🤑 Displaying images from your favorite sellout grifter{"&apos"}s
-        wallpaper app...
+        🤑 Displaying images from your favorite sellout grifter&apos;s wallpaper
+        app...
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((imageUrl, index) => (
